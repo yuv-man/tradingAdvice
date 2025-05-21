@@ -1,0 +1,41 @@
+---
+description: data-retrieval
+globs: 
+---
+# Data Retrieval Enhancement Rules
+
+## API Handling
+- Implement proper rate limiting for all external API calls
+- Add exponential backoff for failed requests
+- Validate all incoming data before processing
+- Create adapter classes for each data source to standardize interfaces
+- Implement circuit breaker pattern for unreliable APIs
+
+## Data Sources
+- Diversify data sources to reduce dependency on any single provider
+- Add Alpha Vantage API as alternative to yfinance
+- Implement Yahoo Finance scraping with rotating proxies to prevent blocking
+- Add support for IEX Cloud API for more reliable financial data
+- Include data from financial RSS feeds as additional sources
+
+## Caching
+- Implement disk-based caching with TTL (time-to-live) expiration
+- Use Redis or SQLite for caching frequently accessed data
+- Add cache invalidation strategies for rapidly changing data
+- Implement a CacheManager class with clear API
+- Add cache statistics/metrics for optimization
+
+## Data Quality
+- Verify data completeness and correctness with cross-validation
+- Detect and handle outliers in financial data
+- Implement data cleaning pipelines for each data source
+- Add data integrity checks before and after transformations
+- Create visualization tools for data quality monitoring
+
+## Enhancement Patterns
+- For each data source (Yahoo Finance, Finviz, etc.):
+  - Add robust error detection
+  - Implement retries with exponential backoff
+  - Create dedicated adapter classes
+  - Add comprehensive logging
+  - Include data validation

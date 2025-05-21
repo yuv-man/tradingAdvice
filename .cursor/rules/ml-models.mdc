@@ -1,0 +1,40 @@
+---
+description: ml-models
+globs: 
+---
+# Machine Learning Models Enhancement Rules
+
+## Model Architecture
+- Implement proper cross-validation with time series data
+- Create feature importance visualization for model transparency
+- Add ensemble methods with proper weighting schemes
+- Implement online learning for model updates
+- Create model confidence metrics
+
+## Feature Engineering
+- Implement automated feature selection with statistical testing
+- Add temporal features (day of week, month effects)
+- Create interaction features between indicators
+- Implement PCA for dimensionality reduction
+- Add feature scaling with robust scalers
+
+## Model Evaluation
+- Implement proper backtesting framework with walk-forward testing
+- Add metrics beyond accuracy (precision, recall, F1, ROC AUC)
+- Create confusion matrix visualization
+- Implement statistical significance testing for model performance
+- Add profit/loss metrics for trading simulation
+
+## Advanced Models
+- Add gradient boosting models (LightGBM, CatBoost)
+- Implement simple recurrent neural networks for time series
+- Create hybrid models that combine ML with rule-based approaches
+- Add Bayesian methods for uncertainty quantification
+- Implement reinforcement learning for adaptive strategies
+
+## Model Management
+- Create model versioning system
+- Implement model A/B testing framework
+- Add feature drift detection
+- Create model performance monitoring
+- Implement model explanation tools

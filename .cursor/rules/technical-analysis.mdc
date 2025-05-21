@@ -1,0 +1,40 @@
+---
+description: technical-analysis
+globs: 
+---
+# Technical Analysis Enhancement Rules
+
+## Indicator Calculation
+- Optimize performance of technical indicator calculations
+- Add more advanced indicators: Ichimoku Cloud, Fibonacci retracements
+- Implement adaptive parameter selection for indicators based on volatility
+- Create custom combined indicators for better signal accuracy
+- Add significance testing for indicator effectiveness
+
+## Signal Generation
+- Improve signal generation with confirmation patterns
+- Implement pattern recognition (head & shoulders, double top/bottom)
+- Add candle pattern recognition for Japanese candlestick patterns
+- Create composite signals that combine multiple indicators
+- Implement machine learning for pattern recognition
+
+## Trend Analysis
+- Add support for multiple timeframes (daily, weekly, monthly)
+- Implement trend strength indicators with clear thresholds
+- Create regression-based trend analysis
+- Add fractal analysis for self-similarity patterns
+- Implement Elliott Wave pattern recognition
+
+## Volatility Analysis
+- Add advanced volatility measures (Parkinson, Garman-Klass)
+- Implement GARCH models for volatility forecasting
+- Create volatility regime detection
+- Implement volatility surface visualization
+- Add implied volatility analysis from options pricing
+
+## Volume Analysis
+- Enhance volume profiling capabilities
+- Add on-balance volume (OBV) momentum analysis
+- Implement volume-weighted average price (VWAP)
+- Create liquidity analysis metrics
+- Add volume-based market regime detection

@@ -1,0 +1,40 @@
+---
+description: recommendations
+globs: 
+---
+# Recommendation Engine Enhancement Rules
+
+## Signal Generation
+- Implement more granular recommendation levels
+- Create confidence scores for all recommendations
+- Add target price estimation
+- Implement stop-loss recommendations
+- Create time horizon estimates for recommendations
+
+## Risk Assessment
+- Add position sizing recommendations based on volatility
+- Implement portfolio-level risk analysis
+- Create risk-adjusted return metrics
+- Add correlation analysis for diversification
+- Implement drawdown estimation
+
+## Validation
+- Create historical recommendation backtesting
+- Implement paper trading validation
+- Add recommendation tracking over time
+- Create performance attribution analysis
+- Implement recommendation accuracy metrics
+
+## Personalization
+- Add risk tolerance adjustments
+- Implement investment style preferences
+- Create sector/industry exposure analysis
+- Add technical vs. fundamental weighting preferences
+- Implement time horizon adjustments
+
+## Presentation
+- Create summary visualization dashboards
+- Implement email/notification systems for new recommendations
+- Add detailed recommendation explanation pages
+- Create comparison views for multiple stocks
+- Implement scenario analysis visualization

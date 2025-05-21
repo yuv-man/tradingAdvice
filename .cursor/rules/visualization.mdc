@@ -1,0 +1,40 @@
+---
+description: visualization
+globs: 
+---
+# Visualization Enhancement Rules
+
+## Interactive Charts
+- Implement interactive time series charts with plotly/bokeh
+- Add technical indicator overlays on price charts
+- Create correlated metrics views
+- Implement annotation capabilities for significant events
+- Add custom visualization for specific patterns
+
+## Dashboards
+- Create comprehensive dashboards with multiple metrics
+- Implement overview/detail interface pattern
+- Add portfolio-level visualization
+- Create sector/industry performance views
+- Implement watchlist visualization
+
+## Performance Visualization
+- Add recommendation performance tracking
+- Create backtest visualization tools
+- Implement benchmark comparison charts
+- Add risk-adjusted return visualization
+- Create drawdown/recovery visualization
+
+## Data Exploration
+- Implement correlation matrices with hierarchical clustering
+- Add parallel coordinates plots for multi-factor analysis
+- Create distribution visualization for key metrics
+- Implement anomaly highlighting
+- Add seasonal pattern visualization
+
+## Reporting
+- Create PDF report generation
+- Implement email report delivery
+- Add custom templates for different report types
+- Create executive summary visualizations
+- Implement scheduled reporting capabilities

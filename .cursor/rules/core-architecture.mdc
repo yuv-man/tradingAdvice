@@ -1,0 +1,39 @@
+---
+description: core-architecture
+globs: 
+---
+# Core Architecture Rules
+
+## Code Organization
+- Keep all imports at the top of each module
+- Group imports by type: standard library, third-party packages, local modules
+- Use consistent naming conventions throughout (snake_case for functions/variables)
+- Divide application into clear functional areas: data retrieval, technical analysis, sentiment analysis, ML models, visualization
+
+## Error Handling
+- All network requests should have timeouts and proper exception handling
+- Implement fallbacks for each major component (technical analysis, sentiment analysis, ML)
+- Use logging instead of print statements for better debugging
+- Add clear comments for complex algorithms and calculations
+- Track error rates for different components to identify weak points
+
+## Performance Optimization
+- Cache downloaded data using a decorator pattern
+- @memoize financial data that doesn't need to be re-downloaded
+- Use vectorized operations with pandas/numpy instead of loops
+- Handle large datasets efficiently with chunking patterns
+- Implement parallel processing for analyzing multiple stocks
+
+## Configuration Management
+- Move all configuration parameters to a central config.py file
+- Create a Config class with properties for different settings
+- Implement environment-specific configuration patterns
+- Allow for command-line parameter overrides
+- Add proper type hints and docstrings
+
+## Testing
+- Create unit tests for each major component
+- Implement integration tests for end-to-end functionality
+- Use hypothesis testing for testing with randomized data
+- Add assertion checks at key points in processing pipeline
+- Implement CI/CD workflow for automated testing

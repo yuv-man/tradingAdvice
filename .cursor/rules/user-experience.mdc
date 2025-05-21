@@ -1,0 +1,40 @@
+---
+description: user-experience
+globs: 
+---
+# User Experience Enhancement Rules
+
+## Interface Design
+- Implement intuitive stock search
+- Add stock comparison features
+- Create watch list functionality
+- Implement customizable dashboards
+- Add mobile-responsive design
+
+## Customization
+- Allow for custom indicator parameters
+- Implement user-specified trading strategies
+- Add custom alert creation
+- Create personalized recommendation settings
+- Implement theme customization
+
+## Notifications
+- Add price alert notifications
+- Implement recommendation change alerts
+- Create volume/volatility spike notifications
+- Add scheduled report delivery
+- Implement custom triggers for notifications
+
+## Automation
+- Create scheduled analysis jobs
+- Implement automatic portfolio rebalancing suggestions
+- Add custom automated trading strategy backtesting
+- Create API hooks for algorithmic trading platforms
+- Implement portfolio optimization tools
+
+## Educational Features
+- Add explanation tooltips for technical terms
+- Create tutorial guides for beginners
+- Implement interactive examples
+- Add reference materials for indicators
+- Create strategy building guides

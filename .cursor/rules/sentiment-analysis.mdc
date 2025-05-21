@@ -1,0 +1,40 @@
+---
+description: sentiment-analysis
+globs: 
+---
+# Sentiment Analysis Enhancement Rules
+
+## News Retrieval
+- Implement more robust news source handling with rotation
+- Add specialized financial news APIs (Bloomberg, Reuters)
+- Create more robust scraping with Selenium for JavaScript-heavy sites
+- Implement proper HTML parsing with contextual extraction
+- Add news deduplication algorithms
+
+## Text Processing
+- Implement topic modeling to categorize news by theme
+- Add named entity recognition for company/people extraction
+- Create industry-specific sentiment lexicons
+- Implement advanced text cleaning with domain-specific rules
+- Add context-aware sentiment analysis
+
+## Sentiment Models
+- Fine-tune FinBERT on more recent financial data
+- Implement ensemble sentiment models with multiple approaches
+- Add entity-level sentiment (sentiment toward specific companies)
+- Create temporal sentiment tracking over time
+- Implement specific event detection (earnings surprises, M&A)
+
+## Alternative Data
+- Add social media sentiment analysis (Twitter, Reddit)
+- Implement options sentiment indicators (put/call ratio)
+- Create insider trading sentiment metrics
+- Add analyst revision sentiment tracking
+- Implement news volume anomaly detection
+
+## Results Integration
+- Create weighted sentiment scoring across multiple sources
+- Implement sentiment confidence metrics
+- Add sentiment trend analysis over time
+- Create visualization dashboards for sentiment tracking
+- Implement alert system for significant sentiment shifts

@@ -1,0 +1,40 @@
+---
+description: deployment
+globs: 
+---
+# Deployment and Infrastructure Rules
+
+## Scaling
+- Implement asynchronous processing with asyncio
+- Add job queue system for batch processing
+- Create worker pools for parallel analysis
+- Implement caching layer for frequently accessed data
+- Add database storage for historical results
+
+## Packaging
+- Create proper package structure with setuptools
+- Implement dependency management with poetry
+- Add containerization with Docker
+- Create docker-compose setup for related services
+- Implement version management with semantic versioning
+
+## Monitoring
+- Add logging infrastructure with ELK stack
+- Implement performance monitoring
+- Create alerting for system issues
+- Add user activity tracking
+- Implement error reporting and aggregation
+
+## Security
+- Add API key management
+- Implement secure credential storage
+- Create access control for different user roles
+- Add data encryption for sensitive information
+- Implement audit logging
+
+## Integration
+- Create REST API for programmatic access
+- Add webhook support for event-based integration
+- Implement data export capabilities in multiple formats
+- Create SDK for third-party integration
+- Add documentation for API usage

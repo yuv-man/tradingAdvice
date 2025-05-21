@@ -1,0 +1,64 @@
+# AlphaPy Configuration File
+
+base_dir: "alphapy_output"
+test_dir: "test"
+train_dir: "train"
+
+# Model parameters
+target: 'target'
+test_date: '2024-01-01'
+split_point: 0.7
+
+# Feature engineering
+features:
+  - 'SMA5'
+  - 'SMA10'
+  - 'SMA20'
+  - 'SMA50'
+  - 'SMA200'
+  - 'EMA5'
+  - 'EMA10'
+  - 'EMA20'
+  - 'ROC5'
+  - 'ROC10'
+  - 'ROC20'
+  - 'RSI'
+  - 'MACD'
+  - 'Signal_Line'
+  - 'MACD_Histogram'
+  - 'BB_Width'
+  - 'K_percent'
+  - 'D_percent'
+  - 'ATR'
+  - 'Volume'
+  - 'Volume_Ratio'
+  - 'Sentiment'
+
+# Model selection
+models:
+  - 'XGB'
+  - 'LOGR'
+  - 'RF'
+
+# Cross-validation
+cv_folds: 5
+random_state: 42
+
+# Feature selection
+feature_selection:
+  method: 'SelectKBest'
+  k: 15
+
+# Hyperparameter tuning
+grid_search: true
+param_grid:
+  XGB:
+    n_estimators: [100, 200, 300]
+    max_depth: [3, 5, 7]
+    learning_rate: [0.01, 0.1, 0.3]
+  RF:
+    n_estimators: [100, 200, 300]
+    max_depth: [10, 20, None]
+  LOGR:
+    C: [0.1, 1.0, 10.0]
+    l1_ratio: [0.1, 0.5, 0.9]
